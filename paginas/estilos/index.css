@@ -1,0 +1,39 @@
+header {
+    background-image: url("../img/header1.jpg");
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0px;
+}
+
+h1{
+    background-color: rgba(255, 255, 255, 0.671);
+    height: 50px;
+    padding: 20px;
+}
+article{
+    background: linear-gradient(rgba(97, 63, 66, 0.25), rgb(245, 236, 236));
+    width: 90%;
+    margin-left: 5%;
+    height: 700px;
+    padding-top: 200px;
+}
+
+nav {
+    position: fixed;
+    top: 150;
+}
+
+nav ol li{
+    background-color: rgba(16, 130, 230 );
+    margin: 5px;
+    display: inline;
+    padding: 10px;
+}
+
+article h2{
+    text-align: center;
+}
+
