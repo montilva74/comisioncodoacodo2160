@@ -1,11 +1,16 @@
+
 .rojo{
     background-color: red;
     color: yellow;
-    width: 25%;
+    width: 24%;
     height: 320px;
     float: left;
+    border: 5px white solid;
 }
 .negro{
     background-color: black;
     color: white;
+    width: 24%;
+    height: 320px;
+    float: left;
 }
