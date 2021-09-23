@@ -38,6 +38,36 @@ if(nombre_variable == undefined){
     elemento.style.color = "white";
 }
 
+// let mensaje = prompt("Introduce tu mensaje");
+// elemento.innerHTML+="<h3>" + mensaje + "</h3>";
+
+let menu = prompt("Selecciona el pedido : \n 1. Milasena \n 2.Pinchos \n 3. Pollo");
+
+let alumnos = [
+    "alba,",
+    "pedro",
+    "luis",
+    "josé",
+];
+
+for(let a=0; a < alumnos.length; a++){
+
+}
+
+alumnos.forEach((a) => {
+
+});
+
+
+
+
+
+
+
+
+
+
+
 
 
 
