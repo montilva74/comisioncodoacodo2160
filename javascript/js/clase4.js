@@ -51,10 +51,10 @@ window.addEventListener('load',function() {
   })
 })
 
-let tiempo = setInterval(()=> 
-{document.getElementById("mensaje").style.visibility="hidden";
-clearInterval(tiempo);
-},3000);
+// let tiempo = setInterval(()=> 
+// {document.getElementById("mensaje").style.visibility="hidden";
+// clearInterval(tiempo);
+// },3000);
 
 
 
