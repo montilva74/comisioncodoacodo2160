@@ -1,6 +1,8 @@
 
 package mi_primer_aplicacion;
 
+import accesorios.Auto;
+
 public class Mi_primer_aplicacion {
    
     public static void main(String[] args) {
@@ -26,5 +28,8 @@ public class Mi_primer_aplicacion {
         System.out.println("Tengo: " + jugador.vidas + " Vidas");
         System.out.println(jugador.mostrarSaludo());
         System.out.println(jugador1.mostrarSaludo());
+        Auto miAuto = new Auto(250,5,"verde","deportivo","2020","fdgrv");
+        miAuto.setEncendido(true);
+        System.out.println(miAuto.encender_auto());
     } 
 }
