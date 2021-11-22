@@ -30,6 +30,6 @@ public class Mi_primer_aplicacion {
         System.out.println(jugador1.mostrarSaludo());
         Auto miAuto = new Auto(250,5,"verde","deportivo","2020","fdgrv");
         miAuto.setEncendido(true);
-        System.out.println(miAuto.encender_auto());
+        System.out.println(miAuto.encender_auto());   
     } 
 }
