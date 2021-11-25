@@ -17,6 +17,11 @@
         <div class="container">
             <div class="row de-flex justify-content-center">
                 <form class="p-5 w-50" action="AlumnosController?accion=actualizar" method="POST">
+                     <div class="mb-3">
+                        <label for="id" class="form-label"></label>
+                        <input type="hidden" class="form-control" id="id" name="id"
+                               value=""/>
+                    </div>
                     <div class="mb-3">
                         <label for="nombre" class="form-label">Nombre</label>
                         <input type="text" class="form-control" id="nombre" name="nombre"
@@ -34,7 +39,7 @@
                         <label for="telefono" class="form-label">Telefono</label>
                         <input type="text" class="form-control" id="telefono" name="telefono" value=""/>
                     </div>
-                    <button type="submit" class="btn btn-primary "></button>
+                    <button type="submit" class="btn btn-primary ">Agregar</button>
                 </form>
             </div>
         </div>
