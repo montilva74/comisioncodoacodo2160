@@ -83,11 +83,7 @@ public class AlumnosDAO {
     public boolean actualizarAlumno(Alumnos alumno) {
        PreparedStatement ps;
         try{
-        ps = conexion.prepareStatement("UPDATE "
-        + "participantes SET nombre=?"
-        + "participantes SET apellido=?"
-        + "participantes SET email=?"
-        + "participantes SET telefono=? WHERE  id=?");
+        ps = conexion.prepareStatement("UPDATE participantes SET nombre=?, apellido=?, email=?, telefono=? where id=?");
         ps.setString(1, alumno.getNombre());
         ps.setString(2, alumno.getApellido());
         ps.setString(3, alumno.getEmail());
