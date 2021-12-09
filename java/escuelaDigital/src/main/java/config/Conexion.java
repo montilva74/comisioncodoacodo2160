@@ -9,7 +9,7 @@ public class Conexion {
         try{
             Class.forName("com.mysql.cj.jdbc.Driver");
             c = DriverManager.getConnection("jdbc:mysql://localhost:3306/comision2160",
-                    "Alba", "root");
+                    "root", "");
         }catch(ClassNotFoundException | SQLException error){
             System.out.println(error.toString());
         }
@@ -26,8 +26,8 @@ public class Conexion {
         rs = ps.executeQuery();
         while(rs.next()){
             int id = rs.getInt("id");
-            String nombre = rs.getString("nombres");
-            String apellido = rs.getString("apellidos");
+            String nombre = rs.getString("nombre");
+            String apellido = rs.getString("apellido");
             String email = rs.getString("email");
             int telefono = rs.getInt("telefono");
             System.out.println("Id: "+ id + "Nombre: "+ nombre + "Apellido: "+ apellido + "Email: "+ email + "Telefono: "+ telefono);

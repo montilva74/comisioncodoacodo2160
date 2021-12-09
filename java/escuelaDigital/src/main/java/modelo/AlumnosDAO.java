@@ -44,7 +44,8 @@ public class AlumnosDAO {
         Alumnos alumno = null;
         
         try{
-           ps = conexion.prepareStatement("SELECT * FROM" + "participantes WHERE id=?");
+           ps = conexion.prepareStatement("SELECT * FROM "
+                   + "participantes WHERE id=?");
            ps.setInt(1, _id);
            rs = ps.executeQuery();
            

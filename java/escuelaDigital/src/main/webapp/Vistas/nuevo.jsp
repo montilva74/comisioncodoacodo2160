@@ -33,7 +33,7 @@
                         <label for="telefono" class="form-label">Telefono</label>
                         <input type="text" class="form-control" id="telefono" name="telefono"/>
                     </div>
-                    <button type="submit" class="btn btn-primary "></button>
+                    <button type="submit" class="btn btn-primary ">Agregar</button>
                 </form>
             </div>
         </div>
